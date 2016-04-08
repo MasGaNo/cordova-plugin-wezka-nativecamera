@@ -5,6 +5,11 @@
            id="com.wezka.nativecamera"
       version="0.1.2">
     <name>Wezka Native Camera</name>
+    
+    <!-- cordova -->
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
 
     <js-module src="www/CameraConstants.js" name="Camera">
         <clobbers target="Camera" />
